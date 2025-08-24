@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutedpy"
+version = "0.0.1"
+description = "MUTational and Embedding Data Processing Library for Python"
+authors = [
+    { name = "Mojmir Mutny", email = "mojmir.mutny@inf.ethz.ch" }
+]
+license = { text = "MIT" }
+readme = "Readme.md"
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "tensorflow",
+    "cvxpy",
+    "torch",
+    "pymanopt",
+    "pandas",
+    "mosek",
+    "tinydb",
+    "tables",
+    "pathos",
+    "textdistance",
+    "httpx",
+    "openpyxl",
+    "dppy",
+    "pymongo",
+    "scikit-learn-extra",
+    "esm",
+    "biopython",
+    "Levenshtein",
+    "xlrd",
+    "ray",
+    "seaborn"
+]
+
+[project.urls]
+Homepage = "https://github.com/Mojusko/mutedpy"

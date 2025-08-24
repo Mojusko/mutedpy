@@ -1,8 +1,11 @@
 data/
 results/
 docking/
+experiments/
 *.sh
 *.txt
+*.pass
+*.lic
 *.png
 *.np
 *.html
@@ -13,6 +16,9 @@ docking/
 .idea/
 *.pyc
 *.pdf
+**/lmp/
+**/atom3d/
+**/lmp/
 protein_opt.egg-info
 .ipynb_checkpoints
 .DS_Store
@@ -43,3 +49,4 @@ share/python-wheels/
 output
 data
 experiments/
+mutedpy/experiments
