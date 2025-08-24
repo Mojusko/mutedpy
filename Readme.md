@@ -1,9 +1,6 @@
 
-# MUTEDPY: Mutational and Embedding Data Processing Library for Python
+#   <img src="icon.png" alt="Repository Icon" width="180"> MUTEDPY: Mutational and Embedding Data Processing Library for Python
 
-<p align="center">
-  <img src="icon.png" alt="Repository Icon" width="180">
-</p>
 
 
 **mutedpy** is a Python library for analyzing mutational datasets of protein sequences and structures. It provides a suite of machine learning models and tools for datasets ranging from $10^2$ to $10^6$ samples, with a focus on both shallow and deep learning approaches.
